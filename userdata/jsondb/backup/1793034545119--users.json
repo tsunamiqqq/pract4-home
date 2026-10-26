@@ -1,0 +1,26 @@
+{
+  "maximka": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "maximka",
+      "passwordHash": "F6S01fQxcfj+YuNPUyuZrJLrk1pF3b5W6MgRrekwomfxqRayIGin7SqbrW0aq8HafIv8EGr4wHffyw5DQYSMJw\u003d\u003d",
+      "passwordSalt": "SdyWP/MFOMUbFHnr2bUWYHuDfO+Jtum6HkGLYm98TZ2hFp2M+xRnhjSUO1fFcVJhZXMnzY7cK86SMso8Ff4Q1A\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "sessions": [
+        {
+          "sessionId": "1a74d54b-9d62-46d2-992c-8ac825584e11",
+          "refreshToken": "46ff735bf8724351bb70b3c28222ee7c",
+          "createdTime": "Oct 26, 2026, 5:11:17 PM",
+          "lastRefreshTime": "Oct 26, 2026, 7:09:04 PM",
+          "clientId": "http://localhost:8081",
+          "redirectUri": "http://localhost:8081",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": []
+    }
+  }
+}

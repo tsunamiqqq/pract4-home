@@ -1,0 +1,748 @@
+2026-10-26 17:36:52.777 [INFO ] [org.openhab.core.Activator          ] - Starting openHAB 4.1.0 (build Release Build)
+2026-10-26 17:36:53.485 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Kiev'.
+2026-10-26 17:36:53.488 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'uk_UA'.
+2026-10-26 17:36:55.057 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8081/rest/sitemaps/events/subscribe's Observer 
+2026-10-26 17:37:02.479 [WARN ] [.core.internal.folder.FolderObserver] - Directory 'scripts' does not exist in '/openhab/conf'. Please check your configuration settings!
+2026-10-26 17:37:02.485 [WARN ] [.core.internal.folder.FolderObserver] - Directory 'persistence' does not exist in '/openhab/conf'. Please check your configuration settings!
+2026-10-26 17:37:02.493 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'smarthome.items'
+2026-10-26 17:37:03.713 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2026-10-26 17:37:03.987 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'smarthome.things'
+2026-10-26 17:37:05.469 [WARN ] [ity.CommunityMarketplaceAddonService] - Unable to retrieve marketplace add-ons: java.lang.IllegalStateException: Expected a string but was BEGIN_OBJECT at line 1 column 19391 path $.topic_list.topics[1].tags[0]
+2026-10-26 17:37:07.909 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2026-10-26 17:37:08.178 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'lighting.rules'
+2026-10-26 17:37:09.901 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'security.rules'
+2026-10-26 17:37:10.288 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'climate.rules'
+2026-10-26 17:37:10.320 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'climate.rules' has errors, therefore ignoring it: [17,16]: missing '}' at '7'
+[17,17]: mismatched input ',' expecting 'end'
+
+2026-10-26 17:37:11.214 [WARN ] [transform.FileTransformationProvider] - Could not list files in '/openhab/conf/transform', transformation configurations might be missing: /openhab/conf/transform
+2026-10-26 17:37:12.483 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8081/rest/sitemaps/events/subscribe's Observer 
+2026-10-26 17:37:19.778 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2026-10-26 17:37:20.081 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'host.docker.internal' with clientid openhabmqtt
+2026-10-26 17:40:46.433 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:40:46.436 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:40:46.450 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:40:46.460 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:41:46.107 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:41:46.107 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:41:46.133 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:41:46.137 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:42:46.205 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:42:46.206 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:42:46.237 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:42:46.246 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:43:39.628 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:43:39.629 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:43:39.651 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:43:39.670 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:43:49.628 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:43:49.629 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:43:49.638 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:43:49.642 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:44:10.801 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:44:10.807 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:44:10.810 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:44:10.819 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:45:30.894 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:45:46.305 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:45:46.308 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:45:58.502 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:45:58.507 [INFO ] [g.openhab.core.model.script.Lighting] - Команда для всього освітлення: ON
+2026-10-26 17:45:58.554 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:45:58.588 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:45:58.609 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:04.788 [INFO ] [g.openhab.core.model.script.Lighting] - Команда для всього освітлення: OFF
+2026-10-26 17:46:04.791 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:04.827 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:04.865 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:04.883 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:10.906 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:10.906 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:46:10.925 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:10.932 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:46:12.509 [INFO ] [g.openhab.core.model.script.Lighting] - Команда для всього освітлення: ON
+2026-10-26 17:46:12.510 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:12.551 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:12.585 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:12.656 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:46:45.992 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:46:45.993 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:47:00.917 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:47:00.917 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:47:00.931 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:47:00.933 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:47:46.023 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:47:46.027 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:48:40.659 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:48:40.666 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:48:50.731 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:48:50.735 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:48:50.972 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:48:51.073 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:48:51.105 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 17:48:51.174 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:48:51.224 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:48:51.242 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:49:10.611 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:49:10.613 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:49:10.966 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:49:10.966 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:49:10.980 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:49:10.986 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:49:20.975 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:49:20.976 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:49:20.986 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:49:20.990 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:49:30.965 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:49:50.987 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:49:50.988 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:49:51.006 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:49:51.013 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:50:20.991 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:50:20.992 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:50:21.010 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:50:21.015 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:50:51.003 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:50:51.007 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:50:51.037 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:50:51.043 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:51:10.741 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:51:10.745 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:51:21.010 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:51:21.011 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:51:21.027 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:51:21.029 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:51:30.999 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 17:51:31.003 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:51:40.730 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:51:40.834 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'weather.things' is either empty or cannot be parsed correctly!
+2026-10-26 17:51:41.011 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:51:41.017 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:51:41.038 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:51:41.040 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:51:45.145 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:51:45.267 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-api:api (thing-type is openweathermap:weather-api). Deferring initialization.
+2026-10-26 17:51:45.276 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-and-forecast:api:local (thing-type is openweathermap:weather-and-forecast). Deferring initialization.
+2026-10-26 17:51:57.041 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:51:57.068 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'weather.things' has errors, therefore ignoring it: [2,33]: missing ']' at 'ua'
+[3,66]: no viable alternative at input '50'
+[3,69]: no viable alternative at input '6450'
+[3,74]: no viable alternative at input '29'
+[3,77]: no viable alternative at input '9231'
+[3,81]: mismatched character '<EOF>' expecting '"'
+
+2026-10-26 17:51:58.257 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:51:58.267 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-api:api (thing-type is openweathermap:weather-api). Deferring initialization.
+2026-10-26 17:51:58.270 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-and-forecast:api:local (thing-type is openweathermap:weather-and-forecast). Deferring initialization.
+2026-10-26 17:51:59.424 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:51:59.434 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'weather.things' has errors, therefore ignoring it: [2,33]: missing ']' at 'ua'
+[3,66]: no viable alternative at input '50'
+[3,69]: no viable alternative at input '6450'
+[3,74]: no viable alternative at input '29'
+[3,77]: no viable alternative at input '9231'
+[3,81]: mismatched character '<EOF>' expecting '"'
+
+2026-10-26 17:52:00.734 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:52:00.738 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:52:01.009 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:52:01.012 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:52:01.021 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:52:01.027 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:52:02.393 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:52:02.403 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'weather.things' has errors, therefore ignoring it: [1,133]: missing ']' at 'ua'
+[2,66]: no viable alternative at input '50'
+[2,69]: no viable alternative at input '6450'
+[2,74]: no viable alternative at input '29'
+[2,77]: no viable alternative at input '9231'
+[2,81]: mismatched character '<EOF>' expecting '"'
+
+2026-10-26 17:52:04.103 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:52:04.117 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-api:api (thing-type is openweathermap:weather-api). Deferring initialization.
+2026-10-26 17:52:04.120 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-and-forecast:api:local (thing-type is openweathermap:weather-and-forecast). Deferring initialization.
+2026-10-26 17:52:08.251 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:52:08.266 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-api:api (thing-type is openweathermap:weather-api). Deferring initialization.
+2026-10-26 17:52:08.269 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-and-forecast:api:local (thing-type is openweathermap:weather-and-forecast). Deferring initialization.
+2026-10-26 17:52:09.934 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 17:52:10.011 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-api:api (thing-type is openweathermap:weather-api). Deferring initialization.
+2026-10-26 17:52:10.013 [INFO ] [.thing.internal.GenericThingProvider] - No ThingHandlerFactory found for thing openweathermap:weather-and-forecast:api:local (thing-type is openweathermap:weather-and-forecast). Deferring initialization.
+2026-10-26 17:52:31.023 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:52:31.354 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'smarthome.items'
+2026-10-26 17:53:01.030 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 17:53:01.031 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:53:02.846 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2026-10-26 17:53:04.301 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2026-10-26 17:53:25.025 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'climate.rules'
+2026-10-26 17:53:25.144 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'climate.rules' has errors, therefore ignoring it: [18,16]: missing '}' at '7'
+[18,17]: mismatched input ',' expecting 'end'
+
+2026-10-26 17:53:40.463 [WARN ] [ity.CommunityMarketplaceAddonService] - Unable to retrieve marketplace add-ons: java.lang.IllegalStateException: Expected a string but was BEGIN_OBJECT at line 1 column 19391 path $.topic_list.topics[1].tags[0]
+2026-10-26 17:53:41.214 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:53:41.703 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:53:41.716 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:53:41.732 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:53:50.950 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 17:53:51.079 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:53:51.084 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:54:10.850 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:54:10.853 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:54:20.785 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:54:20.788 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:54:50.806 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:54:50.819 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:55:20.819 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:55:20.822 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:55:50.853 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:55:50.861 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:55:51.096 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:55:51.107 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:55:51.097 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:55:51.139 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:56:20.828 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:56:20.832 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:56:30.806 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 17:56:40.843 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:56:40.847 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:56:41.109 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 17:56:41.111 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:56:41.124 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 17:56:41.126 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:57:01.056 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:57:01.199 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:57:11.113 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 17:58:41.534 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 17:58:41.542 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:00:50.841 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:00:50.844 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:00:51.109 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:00:51.113 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 18:01:20.679 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'weather.things'
+2026-10-26 18:01:40.954 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:01:40.971 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:01:51.121 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:01:51.121 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:01:51.138 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:01:51.151 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:04:01.242 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:04:11.251 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:04:11.252 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:04:11.262 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:04:11.262 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:04:21.259 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 18:04:21.259 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:04:31.248 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:04:31.249 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:04:31.259 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:04:31.264 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:04:51.267 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:04:51.268 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:04:51.277 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:04:51.288 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:05:41.274 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:05:51.284 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:05:51.285 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:05:51.294 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:05:51.296 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:06:41.293 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:06:41.296 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:06:41.303 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:06:41.306 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:06:50.933 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:06:50.937 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:07:41.362 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 18:07:41.362 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:08:31.368 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:08:31.368 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:08:31.375 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:08:31.380 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:09:11.095 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:09:11.098 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:09:21.058 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 18:09:29.666 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:09:29.669 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:11:53.051 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:11:54.204 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:11:53.054 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:11:54.319 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:11:56.233 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:11:56.424 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:12:07.200 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'host.docker.internal'. Next attempt in 60000ms
+2026-10-26 18:12:07.292 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'host.docker.internal' with clientid openhabmqtt
+2026-10-26 18:12:15.840 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:12:15.864 [INFO ] [g.openhab.core.model.script.Lighting] - Команда для всього освітлення: OFF
+2026-10-26 18:12:15.890 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:12:15.922 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:12:15.933 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:12:34.059 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:12:34.060 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:12:34.072 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:12:34.074 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:12:41.043 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 18:13:14.084 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:13:14.084 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:13:14.095 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:13:14.101 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:13:31.063 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:13:31.078 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:14:04.106 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:14:04.106 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:14:04.123 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:14:04.124 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:15:44.146 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:15:44.147 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:15:44.152 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:15:44.154 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:17:33.870 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:17:33.873 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:18:13.895 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:18:13.899 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:18:24.187 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:18:24.189 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:18:24.197 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:18:24.199 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:19:03.935 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:19:03.941 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:19:24.204 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:19:24.204 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:19:24.215 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:19:24.220 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:20:43.959 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:20:43.960 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:22:24.267 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:22:24.269 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:22:24.283 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:22:24.285 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:22:34.247 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:22:34.247 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:22:34.257 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:22:34.260 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:23:04.260 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:23:04.263 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:23:04.275 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:23:04.277 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:23:23.995 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:23:23.999 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:24:04.296 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:24:04.299 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:24:04.327 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:24:04.317 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:24:24.013 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:24:24.019 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:24:24.321 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:24:24.324 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:24:24.361 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:24:24.369 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:24:34.311 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:24:34.315 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:24:34.337 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:24:34.337 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:27:24.085 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:27:24.090 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:27:34.061 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:27:34.075 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:28:04.084 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:28:04.086 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:28:04.407 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:28:04.408 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:28:04.428 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:28:04.429 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:28:24.415 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:28:24.417 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:28:24.422 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:28:24.432 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:29:04.154 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:29:04.157 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:29:24.178 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:29:24.187 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:29:34.162 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:29:34.168 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:31:04.471 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:31:04.471 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:31:04.477 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:31:04.485 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:31:34.487 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:31:34.488 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:31:34.500 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:31:34.500 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:33:04.231 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:33:04.239 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:33:24.234 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:33:24.240 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:33:34.535 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:34:44.562 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:34:44.568 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:34:44.585 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:34:44.673 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:34:54.713 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:34:54.719 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:34:54.729 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:34:54.745 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:35:34.735 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:35:34.737 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:35:34.744 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:35:34.769 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:36:04.396 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:36:04.401 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:36:34.436 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:36:34.440 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:36:54.761 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:36:54.761 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 18:37:14.760 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:37:14.760 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:37:14.771 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:37:14.773 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:38:04.773 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:38:04.775 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:38:04.784 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:38:04.788 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:38:24.793 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:38:24.795 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:38:24.806 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:38:24.810 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:39:44.597 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:39:44.601 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:39:54.683 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:39:54.679 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:40:34.546 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:40:34.551 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:41:04.825 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:41:14.826 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:41:14.831 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:41:14.833 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:41:14.842 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:42:14.577 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:42:14.584 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:42:14.844 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:42:14.845 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:42:14.851 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:42:14.859 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:43:04.586 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:43:04.589 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:43:24.606 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:43:24.611 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:43:44.885 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 18:43:44.886 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:45:24.948 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:45:24.949 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:45:24.956 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:45:24.967 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:46:14.636 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:46:14.639 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:46:34.969 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:46:34.972 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:46:34.979 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:46:34.983 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:47:14.649 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:47:14.651 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:47:24.972 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:47:24.973 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:47:24.980 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:47:24.990 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:48:44.688 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 18:49:05.008 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:49:05.008 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:49:05.018 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:49:05.021 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:49:25.012 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:49:25.027 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:49:25.031 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:49:25.054 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:50:05.032 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:50:24.766 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:50:24.769 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:51:34.781 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:51:34.789 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:51:45.059 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:51:45.060 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:51:45.067 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:51:45.071 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:52:24.780 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:52:24.783 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:52:35.170 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:52:35.202 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:52:35.217 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:52:35.221 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:52:45.163 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 18:52:45.166 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:53:35.181 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:53:35.183 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:53:35.224 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:53:35.241 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:54:04.821 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:54:04.827 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:54:05.185 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:54:05.186 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:54:05.198 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:54:05.204 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:54:24.864 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:54:24.868 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:55:15.359 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:55:25.339 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:55:25.340 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 18:56:05.367 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:56:05.369 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:56:05.374 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:56:05.381 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:56:44.885 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:56:44.889 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:57:35.037 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:57:35.041 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:57:44.967 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 18:58:05.410 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:58:05.429 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:58:05.434 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:58:05.437 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:58:35.039 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:58:35.042 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:59:05.000 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 18:59:05.003 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:59:35.440 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 18:59:35.441 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 18:59:35.489 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 18:59:35.495 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:00:00.715 [INFO ] [g.openhab.core.model.script.Lighting] - Активація вечірнього режиму
+2026-10-26 19:00:00.719 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:00:00.727 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:00:05.450 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:00:05.450 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:00:05.460 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:00:05.463 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:00:25.139 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 19:00:35.459 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:00:45.486 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 19:00:45.486 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:00:55.457 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:00:55.457 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:00:55.466 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:00:55.466 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:01:05.175 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:01:05.178 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:01:05.487 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:01:05.492 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:01:05.494 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:01:05.499 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:03:05.242 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:03:05.248 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:03:05.505 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:04:05.522 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:04:05.524 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:04:05.531 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:04:05.533 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:04:25.523 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:04:25.524 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:04:25.531 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:04:25.529 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:04:35.288 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:04:35.292 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:05:05.356 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:05:05.360 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:05:05.644 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:05:05.645 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:05:05.657 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:05:05.672 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:05:55.351 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:05:55.354 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:05:55.644 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:05:55.646 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:05:55.651 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:05:55.662 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:06:05.377 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:06:05.379 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:06:35.675 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:06:35.675 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:06:35.686 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:06:35.700 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:06:45.681 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:06:45.682 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:06:45.714 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:06:45.694 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:07:35.690 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:07:35.701 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:07:35.716 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:07:35.710 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:09:05.415 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:09:05.421 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:09:25.421 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:09:25.424 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:10:05.447 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:10:05.450 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:10:55.461 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:10:55.463 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:11:35.498 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:11:35.499 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:11:45.651 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:11:45.653 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:11:45.872 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:11:45.873 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 19:12:35.543 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:12:35.546 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:13:35.915 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:13:35.916 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:13:35.929 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:13:35.932 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:13:55.929 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:13:55.930 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:13:55.945 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:13:55.947 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:16:45.685 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 19:16:55.972 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:16:55.973 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:16:55.982 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:16:55.987 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:16:55.987 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:17:25.984 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 19:17:25.985 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:18:35.732 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:18:35.735 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:18:55.757 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:18:55.759 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:19:56.031 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:19:56.031 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:19:56.037 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:19:56.040 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:21:16.074 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:21:55.776 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:21:55.780 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:23:26.119 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:23:26.119 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:23:26.124 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:23:26.126 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:23:36.130 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:23:36.131 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:23:36.136 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:23:36.139 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:30:02.191 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:30:02.242 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:30:02.378 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:30:02.198 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:30:02.197 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:30:02.385 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:30:11.943 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'host.docker.internal'. Next attempt in 60000ms
+2026-10-26 19:30:11.960 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'host.docker.internal' with clientid openhabmqtt
+2026-10-26 19:30:40.111 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 19:30:40.112 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:31:20.129 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:31:20.132 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:31:20.152 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:31:20.207 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:31:50.135 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:31:50.136 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:31:50.160 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:31:50.166 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:34:40.335 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:35:50.338 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:35:50.340 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:35:50.351 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:35:50.369 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:36:20.008 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:36:20.021 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:36:49.965 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:36:49.970 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:36:50.377 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:36:50.380 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:36:50.395 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:36:50.410 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:37:00.368 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:37:00.368 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:37:00.376 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:37:00.392 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:39:50.405 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:39:50.405 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:39:50.431 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:39:50.435 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:40:30.399 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:40:30.400 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:40:30.415 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:40:30.432 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:40:50.156 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:40:50.158 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:41:10.514 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:41:10.517 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:41:10.526 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:41:10.530 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:41:50.217 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:41:50.225 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:42:00.208 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:42:00.222 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:42:00.531 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:42:00.531 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 19:42:00.532 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:42:00.541 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:42:00.551 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:42:00.579 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:43:50.579 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:43:50.581 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:43:50.590 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:43:50.594 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:44:40.584 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:44:40.584 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:44:40.600 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:44:40.601 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:44:50.247 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:44:50.250 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:45:20.709 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:45:30.229 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:45:30.232 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:46:10.336 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:46:10.344 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:46:10.721 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:46:10.721 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:46:10.729 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:46:10.744 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:46:30.721 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 19:46:30.724 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:47:00.332 [WARN ] [g.openhab.core.model.script.Security] - Двері відчинені більше 5 хвилин!
+2026-10-26 19:47:00.361 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:47:00.365 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:47:20.779 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:48:00.798 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:48:00.798 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:48:00.862 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:48:00.869 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:48:20.778 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:48:20.779 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:48:20.830 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:48:20.871 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:48:50.416 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:48:50.442 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:49:30.772 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:49:30.792 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:49:30.775 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:49:30.826 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:49:40.413 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:49:40.418 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:51:10.527 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:51:10.530 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:51:50.923 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:51:50.923 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:51:50.933 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:51:50.940 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:52:20.938 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:52:20.940 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:52:20.946 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:52:20.952 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:53:00.675 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:53:00.677 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:53:20.667 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:53:20.670 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:54:30.607 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:54:30.610 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:54:30.961 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:54:30.969 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:54:30.990 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:54:30.994 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:56:01.068 [INFO ] [g.openhab.core.model.script.Security] - Двері відчинено
+2026-10-26 19:56:01.069 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:56:21.099 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:56:21.113 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:56:21.143 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:56:21.150 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:56:31.072 [INFO ] [g.openhab.core.model.script.Lighting] - Виявлено рух. Включення світла
+2026-10-26 19:56:31.074 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:56:31.088 [INFO ] [g.openhab.core.model.script.Lighting] - Денний режим освітлення
+2026-10-26 19:56:31.160 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:56:50.739 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:56:50.745 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:57:20.765 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:57:20.774 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
+2026-10-26 19:59:30.794 [INFO ] [g.openhab.core.model.script.Lighting] - Автоматичне вимкнення світла
+2026-10-26 19:59:30.805 [INFO ] [g.openhab.core.model.script.Security] - Активність зафіксована
