@@ -19,6 +19,7 @@ Bridge mqtt:broker:localBroker "Local MQTT Broker" [ host="host.docker.internal"
             Type number: current_temp "Поточна температура" [ stateTopic="smarthome/thermostat/current_temp" ]
             Type number: target_temp "Цільова температура" [ stateTopic="smarthome/thermostat/target_temp", commandTopic="smarthome/thermostat/set" ]
             Type switch: heating "Обігрів" [ stateTopic="smarthome/thermostat/heating" ]
+            Type number: outdoor_temp "Вулична температура" [ stateTopic="smarthome/thermostat/outdoor_temp" ]
     }
     Thing topic motion_sensor "Датчик руху" @ "Коридор" {
         Channels:

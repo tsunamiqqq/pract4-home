@@ -26,7 +26,7 @@ Switch Heating "Обігрів [%s]" <fire> (Climate, LivingRoom) { channel="mqt
 // Датчики
 Switch MotionDetector "Датчик руху [%s]" <motion> (Sensors) { channel="mqtt:topic:localBroker:motion_sensor:motion" }
 Contact DoorSensor "Датчик дверей [%s]" <door> (Sensors) { channel="mqtt:topic:localBroker:door_sensor:state" }
-Number:Temperature OutdoorTemperature "Температура надворі [%.1f %unit%]" <temperature> (Sensors) { channel="openweathermap:weather-and-forecast:api:local:current#temperature" }
+Number OutdoorTemperature "Температура надворі [%.1f °C]" <temperature> (Sensors) { channel="mqtt:topic:localBroker:thermostat:outdoor_temp" }
 
 // Прилади
 Switch SmartSocket "Розумна розетка [%s]" <socket> (Appliances, Kitchen) { channel="mqtt:topic:localBroker:smart_socket:power" }

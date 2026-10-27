@@ -1,3 +1,0 @@
-Bridge openweathermap:weather-api:api "OpenWeatherMap API" [apikey="5dca6aaed448aba2489ee0b879296971", refreshInterval=30, language="ua"] {
-    Thing weather-and-forecast local "Місцева погода" [location="50.6450,29.9231", forecastHours=0, forecastDays=0]
-}
